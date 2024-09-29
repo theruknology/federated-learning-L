@@ -7,10 +7,16 @@ from server import Server
 from clients import Client
 
 def main():
+    # Setup parameters
+    setup_outer_epochs = 10
+    setup_dataset = "fashion"
+    setup_client_count = 5
+    setup_inner_client_epochs = 2
+
     # Set up training and test data
     transform = transforms.Compose([transforms.ToTensor(), transforms.Normalize((0.5,), (0.5,))])
-    train_data = datasets.FashionMNIST('.', train=True, download=True, transform=transform)
-    test_data = datasets.FashionMNIST('.', train=False, download=True, transform=transform)
+    train_data = datasets.FashionMNIST(root='./data/.', train=True, download=True, transform=transform)
+    test_data = datasets.FashionMNIST(root='./data/.', train=False, download=True, transform=transform)
 
     train_loader = DataLoader(train_data, batch_size=64, shuffle=True)
     test_loader = DataLoader(test_data, batch_size=1000, shuffle=False)
@@ -20,16 +26,16 @@ def main():
     server = Server(global_model, test_loader)
 
     clients = []
-    for i in range(5):  # Assume 5 clients
+    for i in range(setup_client_count):  # Assume 5 clients
         local_model = SimpleCNN()
         optimizer = optim.SGD(local_model.parameters(), lr=0.01, momentum=0.9)
         client_loader = DataLoader(train_data, batch_size=64, shuffle=True)
-        client = Client(i, local_model, client_loader, optimizer)
+        client = Client(i, local_model, client_loader, optimizer, inner_epochs=setup_inner_client_epochs)
         clients.append(client)
         server.attach(client)
 
     # Federated learning process
-    for round in range(10):  # Assume 10 rounds of training
+    for round in range(setup_outer_epochs):  # Assume 10 rounds of training
         print(f"Round {round + 1}")
         server.distribute()
         selected_clients = range(len(clients))  # All clients participate

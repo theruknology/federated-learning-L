@@ -3,7 +3,7 @@ import torch
 import torch.nn.functional as F
 
 class Client:
-    def __init__(self, cid, model, dataLoader, optimizer, criterion=F.nll_loss, device='cpu', inner_epochs=1):
+    def __init__(self, cid, model, dataLoader, optimizer, criterion=F.nll_loss, device='cuda', inner_epochs=1):
         self.cid = cid
         self.model = model
         self.dataLoader = dataLoader
@@ -38,6 +38,23 @@ class Client:
                 loss.backward()
                 self.optimizer.step()
         self.isTrained = True
+        self.model.cpu()
+
+    def test_accuracy(self, test_loader):
+        self.model.to(self.device)
+        self.model.eval()
+        correct = 0
+        total = 0
+        with torch.no_grad():
+            for data, target in test_loader:
+                data, target = data.to(self.device), target.to(self.device)
+                output = self.model(data)
+                _, predicted = torch.max(output.data, 1)
+                total += target.size(0)
+                correct += (predicted == target).sum().item()
+
+        accuracy = 100 * correct / total
+        print(f'[Client {self.cid}] Accuracy: {accuracy:.2f}%')
         self.model.cpu()
 
     def update(self):

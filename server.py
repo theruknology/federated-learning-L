@@ -3,7 +3,7 @@ import torch
 import torch.nn.functional as F
 
 class Server:
-    def __init__(self, model, dataLoader, criterion=F.nll_loss, device='cpu'):
+    def __init__(self, model, dataLoader, criterion=F.nll_loss, device='cuda'):
         self.clients = []
         self.model = model
         self.dataLoader = dataLoader
@@ -54,6 +54,7 @@ class Server:
         for c in selectedClients:
             c.train()
             c.update()
+            c.test_accuracy(self.dataLoader)
         Delta = self.AR(selectedClients)
         for param in self.model.state_dict():
             self.model.state_dict()[param] += Delta[param]
