@@ -3,3 +3,4 @@ data
 FashionMNIST
 test.py
 __pycache__
+corrupted_samples
