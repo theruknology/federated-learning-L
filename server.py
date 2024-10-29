@@ -2,6 +2,7 @@ from copy import deepcopy
 import torch
 import torch.nn.functional as F
 
+
 class Server:
     def __init__(self, model, dataLoader, criterion=F.nll_loss, device='cuda'):
         self.clients = []
@@ -39,14 +40,18 @@ class Server:
             for data, target in self.dataLoader:
                 data, target = data.to(self.device), target.to(self.device)
                 output = self.model(data)
-                test_loss += self.criterion(output, target, reduction='sum').item()  # sum up batch loss
-                pred = output.argmax(dim=1, keepdim=True)  # get the index of the max log-probability
+                # sum up batch loss
+                test_loss += self.criterion(output,
+                                            target, reduction='sum').item()
+                # get the index of the max log-probability
+                pred = output.argmax(dim=1, keepdim=True)
                 correct += pred.eq(target.view_as(pred)).sum().item()
                 count += pred.shape[0]
         test_loss /= count
         accuracy = 100. * correct / count
         self.model.cpu()
-        print(f'[Server] Test set: Average loss: {test_loss:.4f}, Accuracy: {correct}/{count} ({accuracy:.0f}%)')
+        print(f'[Server] Test set: Average loss: {
+              test_loss:.4f}, Accuracy: {correct}/{count} ({accuracy:.0f}%)')
         return test_loss, accuracy
 
     def train(self, group):
@@ -64,6 +69,6 @@ class Server:
         Delta = deepcopy(self.emptyStates)
         deltas = [c.getDelta() for c in clients]
         for param in Delta:
-            Delta[param] = torch.mean(torch.stack([delta[param] for delta in deltas]), dim=0)
+            Delta[param] = torch.mean(torch.stack(
+                [delta[param] for delta in deltas]), dim=0)
         return Delta
-
