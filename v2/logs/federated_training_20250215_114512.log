@@ -1,0 +1,488 @@
+2025-02-15 11:45:12,329 - INFO - Starting experiments with Fool's Gold defense...
+2025-02-15 11:45:12,330 - INFO - Starting experiment with 20.0% malicious clients
+2025-02-15 11:45:14,057 - INFO - Number of malicious clients: 2
+2025-02-15 11:46:08,555 - INFO - 
+Round 0:
+2025-02-15 11:46:08,556 - INFO - Loss = 1.6222, Accuracy = 50.90%
+2025-02-15 11:46:08,556 - INFO - 
+Detection Metrics for Round 0:
+2025-02-15 11:46:08,557 - INFO - True Positives: 2
+2025-02-15 11:46:08,557 - INFO - False Positives: 0
+2025-02-15 11:46:08,557 - INFO - False Negatives: 0
+2025-02-15 11:46:08,557 - INFO - True Negatives: 8
+2025-02-15 11:46:08,558 - INFO - Detection Rate: 100.00%
+2025-02-15 11:46:08,558 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:46:08,558 - INFO - Precision: 100.00%
+2025-02-15 11:46:08,559 - INFO - Total Malicious Clients: 2
+2025-02-15 11:46:08,559 - INFO - Total Detected Clients: 2
+2025-02-15 11:46:08,559 - INFO - Detected Client IDs: [0, 1]
+2025-02-15 11:46:08,559 - INFO - Actual Malicious Client IDs: [0, 1]
+
+2025-02-15 11:46:09,643 - INFO - Backdoor Success Rate = 8.70%
+2025-02-15 11:47:01,600 - INFO - 
+Round 1:
+2025-02-15 11:47:01,601 - INFO - Loss = 1.1255, Accuracy = 61.72%
+2025-02-15 11:47:01,601 - INFO - 
+Detection Metrics for Round 1:
+2025-02-15 11:47:01,601 - INFO - True Positives: 0
+2025-02-15 11:47:01,602 - INFO - False Positives: 0
+2025-02-15 11:47:01,602 - INFO - False Negatives: 2
+2025-02-15 11:47:01,602 - INFO - True Negatives: 8
+2025-02-15 11:47:01,603 - INFO - Detection Rate: 0.00%
+2025-02-15 11:47:01,603 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:47:01,603 - INFO - Precision: 0.00%
+2025-02-15 11:47:01,604 - INFO - Total Malicious Clients: 2
+2025-02-15 11:47:01,604 - INFO - Total Detected Clients: 0
+2025-02-15 11:47:01,604 - INFO - Detected Client IDs: []
+2025-02-15 11:47:01,604 - INFO - Actual Malicious Client IDs: [0, 1]
+
+2025-02-15 11:47:02,673 - INFO - Backdoor Success Rate = 11.05%
+2025-02-15 11:47:53,258 - INFO - 
+Round 2:
+2025-02-15 11:47:53,259 - INFO - Loss = 0.9581, Accuracy = 67.01%
+2025-02-15 11:47:53,259 - INFO - 
+Detection Metrics for Round 2:
+2025-02-15 11:47:53,259 - INFO - True Positives: 0
+2025-02-15 11:47:53,260 - INFO - False Positives: 0
+2025-02-15 11:47:53,260 - INFO - False Negatives: 2
+2025-02-15 11:47:53,260 - INFO - True Negatives: 8
+2025-02-15 11:47:53,260 - INFO - Detection Rate: 0.00%
+2025-02-15 11:47:53,261 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:47:53,261 - INFO - Precision: 0.00%
+2025-02-15 11:47:53,261 - INFO - Total Malicious Clients: 2
+2025-02-15 11:47:53,261 - INFO - Total Detected Clients: 0
+2025-02-15 11:47:53,262 - INFO - Detected Client IDs: []
+2025-02-15 11:47:53,262 - INFO - Actual Malicious Client IDs: [0, 1]
+
+2025-02-15 11:47:54,354 - INFO - Backdoor Success Rate = 11.90%
+2025-02-15 11:48:40,276 - INFO - 
+Round 3:
+2025-02-15 11:48:40,277 - INFO - Loss = 0.8729, Accuracy = 69.80%
+2025-02-15 11:48:40,277 - INFO - 
+Detection Metrics for Round 3:
+2025-02-15 11:48:40,277 - INFO - True Positives: 0
+2025-02-15 11:48:40,278 - INFO - False Positives: 0
+2025-02-15 11:48:40,278 - INFO - False Negatives: 2
+2025-02-15 11:48:40,278 - INFO - True Negatives: 8
+2025-02-15 11:48:40,278 - INFO - Detection Rate: 0.00%
+2025-02-15 11:48:40,279 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:48:40,279 - INFO - Precision: 0.00%
+2025-02-15 11:48:40,279 - INFO - Total Malicious Clients: 2
+2025-02-15 11:48:40,279 - INFO - Total Detected Clients: 0
+2025-02-15 11:48:40,280 - INFO - Detected Client IDs: []
+2025-02-15 11:48:40,280 - INFO - Actual Malicious Client IDs: [0, 1]
+
+2025-02-15 11:48:41,372 - INFO - Backdoor Success Rate = 12.40%
+2025-02-15 11:49:33,530 - INFO - 
+Round 4:
+2025-02-15 11:49:33,530 - INFO - Loss = 0.8380, Accuracy = 71.67%
+2025-02-15 11:49:33,531 - INFO - 
+Detection Metrics for Round 4:
+2025-02-15 11:49:33,531 - INFO - True Positives: 0
+2025-02-15 11:49:33,532 - INFO - False Positives: 0
+2025-02-15 11:49:33,532 - INFO - False Negatives: 2
+2025-02-15 11:49:33,532 - INFO - True Negatives: 8
+2025-02-15 11:49:33,532 - INFO - Detection Rate: 0.00%
+2025-02-15 11:49:33,533 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:49:33,533 - INFO - Precision: 0.00%
+2025-02-15 11:49:33,534 - INFO - Total Malicious Clients: 2
+2025-02-15 11:49:33,534 - INFO - Total Detected Clients: 0
+2025-02-15 11:49:33,534 - INFO - Detected Client IDs: []
+2025-02-15 11:49:33,534 - INFO - Actual Malicious Client IDs: [0, 1]
+
+2025-02-15 11:49:34,629 - INFO - Backdoor Success Rate = 11.80%
+2025-02-15 11:50:14,861 - INFO - 
+Round 5:
+2025-02-15 11:50:14,862 - INFO - Loss = 0.8114, Accuracy = 72.49%
+2025-02-15 11:50:14,862 - INFO - 
+Detection Metrics for Round 5:
+2025-02-15 11:50:14,863 - INFO - True Positives: 0
+2025-02-15 11:50:14,863 - INFO - False Positives: 0
+2025-02-15 11:50:14,863 - INFO - False Negatives: 2
+2025-02-15 11:50:14,864 - INFO - True Negatives: 8
+2025-02-15 11:50:14,864 - INFO - Detection Rate: 0.00%
+2025-02-15 11:50:14,865 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:50:14,865 - INFO - Precision: 0.00%
+2025-02-15 11:50:14,865 - INFO - Total Malicious Clients: 2
+2025-02-15 11:50:14,865 - INFO - Total Detected Clients: 0
+2025-02-15 11:50:14,865 - INFO - Detected Client IDs: []
+2025-02-15 11:50:14,866 - INFO - Actual Malicious Client IDs: [0, 1]
+
+2025-02-15 11:50:15,968 - INFO - Backdoor Success Rate = 12.10%
+2025-02-15 11:51:03,142 - INFO - 
+Round 6:
+2025-02-15 11:51:03,143 - INFO - Loss = 0.7966, Accuracy = 72.61%
+2025-02-15 11:51:03,143 - INFO - 
+Detection Metrics for Round 6:
+2025-02-15 11:51:03,143 - INFO - True Positives: 0
+2025-02-15 11:51:03,144 - INFO - False Positives: 0
+2025-02-15 11:51:03,144 - INFO - False Negatives: 2
+2025-02-15 11:51:03,144 - INFO - True Negatives: 8
+2025-02-15 11:51:03,144 - INFO - Detection Rate: 0.00%
+2025-02-15 11:51:03,145 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:51:03,145 - INFO - Precision: 0.00%
+2025-02-15 11:51:03,145 - INFO - Total Malicious Clients: 2
+2025-02-15 11:51:03,145 - INFO - Total Detected Clients: 0
+2025-02-15 11:51:03,146 - INFO - Detected Client IDs: []
+2025-02-15 11:51:03,146 - INFO - Actual Malicious Client IDs: [0, 1]
+
+2025-02-15 11:51:04,247 - INFO - Backdoor Success Rate = 12.50%
+2025-02-15 11:51:54,596 - INFO - 
+Round 7:
+2025-02-15 11:51:54,596 - INFO - Loss = 0.7923, Accuracy = 73.27%
+2025-02-15 11:51:54,597 - INFO - 
+Detection Metrics for Round 7:
+2025-02-15 11:51:54,597 - INFO - True Positives: 0
+2025-02-15 11:51:54,597 - INFO - False Positives: 0
+2025-02-15 11:51:54,598 - INFO - False Negatives: 2
+2025-02-15 11:51:54,598 - INFO - True Negatives: 8
+2025-02-15 11:51:54,598 - INFO - Detection Rate: 0.00%
+2025-02-15 11:51:54,599 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:51:54,599 - INFO - Precision: 0.00%
+2025-02-15 11:51:54,599 - INFO - Total Malicious Clients: 2
+2025-02-15 11:51:54,599 - INFO - Total Detected Clients: 0
+2025-02-15 11:51:54,600 - INFO - Detected Client IDs: []
+2025-02-15 11:51:54,600 - INFO - Actual Malicious Client IDs: [0, 1]
+
+2025-02-15 11:51:55,668 - INFO - Backdoor Success Rate = 12.30%
+2025-02-15 11:52:54,163 - INFO - 
+Round 8:
+2025-02-15 11:52:54,164 - INFO - Loss = 0.7787, Accuracy = 73.85%
+2025-02-15 11:52:54,165 - INFO - 
+Detection Metrics for Round 8:
+2025-02-15 11:52:54,165 - INFO - True Positives: 0
+2025-02-15 11:52:54,165 - INFO - False Positives: 0
+2025-02-15 11:52:54,166 - INFO - False Negatives: 2
+2025-02-15 11:52:54,166 - INFO - True Negatives: 8
+2025-02-15 11:52:54,166 - INFO - Detection Rate: 0.00%
+2025-02-15 11:52:54,166 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:52:54,167 - INFO - Precision: 0.00%
+2025-02-15 11:52:54,167 - INFO - Total Malicious Clients: 2
+2025-02-15 11:52:54,167 - INFO - Total Detected Clients: 0
+2025-02-15 11:52:54,167 - INFO - Detected Client IDs: []
+2025-02-15 11:52:54,167 - INFO - Actual Malicious Client IDs: [0, 1]
+
+2025-02-15 11:52:55,220 - INFO - Backdoor Success Rate = 14.45%
+2025-02-15 11:53:40,503 - INFO - 
+Round 9:
+2025-02-15 11:53:40,504 - INFO - Loss = 0.7867, Accuracy = 73.73%
+2025-02-15 11:53:40,505 - INFO - 
+Detection Metrics for Round 9:
+2025-02-15 11:53:40,505 - INFO - True Positives: 0
+2025-02-15 11:53:40,505 - INFO - False Positives: 0
+2025-02-15 11:53:40,506 - INFO - False Negatives: 2
+2025-02-15 11:53:40,506 - INFO - True Negatives: 8
+2025-02-15 11:53:40,506 - INFO - Detection Rate: 0.00%
+2025-02-15 11:53:40,507 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:53:40,507 - INFO - Precision: 0.00%
+2025-02-15 11:53:40,507 - INFO - Total Malicious Clients: 2
+2025-02-15 11:53:40,508 - INFO - Total Detected Clients: 0
+2025-02-15 11:53:40,508 - INFO - Detected Client IDs: []
+2025-02-15 11:53:40,508 - INFO - Actual Malicious Client IDs: [0, 1]
+
+2025-02-15 11:53:41,573 - INFO - Backdoor Success Rate = 15.00%
+2025-02-15 11:53:41,574 - INFO - Completed experiment with 20.0% malicious clients (defense ON)
+2025-02-15 11:53:41,575 - INFO - Starting experiment with 30.0% malicious clients
+2025-02-15 11:53:42,375 - INFO - Number of malicious clients: 3
+2025-02-15 11:54:30,117 - INFO - 
+Round 0:
+2025-02-15 11:54:30,118 - INFO - Loss = 1.5708, Accuracy = 52.22%
+2025-02-15 11:54:30,118 - INFO - 
+Detection Metrics for Round 0:
+2025-02-15 11:54:30,119 - INFO - True Positives: 3
+2025-02-15 11:54:30,119 - INFO - False Positives: 0
+2025-02-15 11:54:30,119 - INFO - False Negatives: 0
+2025-02-15 11:54:30,120 - INFO - True Negatives: 7
+2025-02-15 11:54:30,120 - INFO - Detection Rate: 100.00%
+2025-02-15 11:54:30,120 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:54:30,120 - INFO - Precision: 100.00%
+2025-02-15 11:54:30,121 - INFO - Total Malicious Clients: 3
+2025-02-15 11:54:30,121 - INFO - Total Detected Clients: 3
+2025-02-15 11:54:30,121 - INFO - Detected Client IDs: [0, 1, 2]
+2025-02-15 11:54:30,121 - INFO - Actual Malicious Client IDs: [0, 1, 2]
+
+2025-02-15 11:54:31,718 - INFO - Backdoor Success Rate = 8.53%
+2025-02-15 11:55:27,293 - INFO - 
+Round 1:
+2025-02-15 11:55:27,294 - INFO - Loss = 1.0994, Accuracy = 62.74%
+2025-02-15 11:55:27,294 - INFO - 
+Detection Metrics for Round 1:
+2025-02-15 11:55:27,295 - INFO - True Positives: 0
+2025-02-15 11:55:27,295 - INFO - False Positives: 0
+2025-02-15 11:55:27,295 - INFO - False Negatives: 3
+2025-02-15 11:55:27,295 - INFO - True Negatives: 7
+2025-02-15 11:55:27,296 - INFO - Detection Rate: 0.00%
+2025-02-15 11:55:27,296 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:55:27,296 - INFO - Precision: 0.00%
+2025-02-15 11:55:27,296 - INFO - Total Malicious Clients: 3
+2025-02-15 11:55:27,297 - INFO - Total Detected Clients: 0
+2025-02-15 11:55:27,297 - INFO - Detected Client IDs: []
+2025-02-15 11:55:27,297 - INFO - Actual Malicious Client IDs: [0, 1, 2]
+
+2025-02-15 11:55:28,890 - INFO - Backdoor Success Rate = 13.30%
+2025-02-15 11:56:11,686 - INFO - 
+Round 2:
+2025-02-15 11:56:11,687 - INFO - Loss = 0.9491, Accuracy = 67.37%
+2025-02-15 11:56:11,687 - INFO - 
+Detection Metrics for Round 2:
+2025-02-15 11:56:11,688 - INFO - True Positives: 0
+2025-02-15 11:56:11,688 - INFO - False Positives: 0
+2025-02-15 11:56:11,688 - INFO - False Negatives: 3
+2025-02-15 11:56:11,689 - INFO - True Negatives: 7
+2025-02-15 11:56:11,689 - INFO - Detection Rate: 0.00%
+2025-02-15 11:56:11,689 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:56:11,689 - INFO - Precision: 0.00%
+2025-02-15 11:56:11,690 - INFO - Total Malicious Clients: 3
+2025-02-15 11:56:11,690 - INFO - Total Detected Clients: 0
+2025-02-15 11:56:11,690 - INFO - Detected Client IDs: []
+2025-02-15 11:56:11,690 - INFO - Actual Malicious Client IDs: [0, 1, 2]
+
+2025-02-15 11:56:13,319 - INFO - Backdoor Success Rate = 12.93%
+2025-02-15 11:56:51,969 - INFO - 
+Round 3:
+2025-02-15 11:56:51,970 - INFO - Loss = 0.8924, Accuracy = 69.36%
+2025-02-15 11:56:51,970 - INFO - 
+Detection Metrics for Round 3:
+2025-02-15 11:56:51,970 - INFO - True Positives: 0
+2025-02-15 11:56:51,971 - INFO - False Positives: 0
+2025-02-15 11:56:51,971 - INFO - False Negatives: 3
+2025-02-15 11:56:51,971 - INFO - True Negatives: 7
+2025-02-15 11:56:51,971 - INFO - Detection Rate: 0.00%
+2025-02-15 11:56:51,972 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:56:51,972 - INFO - Precision: 0.00%
+2025-02-15 11:56:51,972 - INFO - Total Malicious Clients: 3
+2025-02-15 11:56:51,972 - INFO - Total Detected Clients: 0
+2025-02-15 11:56:51,973 - INFO - Detected Client IDs: []
+2025-02-15 11:56:51,973 - INFO - Actual Malicious Client IDs: [0, 1, 2]
+
+2025-02-15 11:56:53,553 - INFO - Backdoor Success Rate = 16.10%
+2025-02-15 11:57:43,813 - INFO - 
+Round 4:
+2025-02-15 11:57:43,814 - INFO - Loss = 0.8513, Accuracy = 70.93%
+2025-02-15 11:57:43,814 - INFO - 
+Detection Metrics for Round 4:
+2025-02-15 11:57:43,815 - INFO - True Positives: 0
+2025-02-15 11:57:43,815 - INFO - False Positives: 0
+2025-02-15 11:57:43,815 - INFO - False Negatives: 3
+2025-02-15 11:57:43,816 - INFO - True Negatives: 7
+2025-02-15 11:57:43,816 - INFO - Detection Rate: 0.00%
+2025-02-15 11:57:43,816 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:57:43,817 - INFO - Precision: 0.00%
+2025-02-15 11:57:43,817 - INFO - Total Malicious Clients: 3
+2025-02-15 11:57:43,817 - INFO - Total Detected Clients: 0
+2025-02-15 11:57:43,817 - INFO - Detected Client IDs: []
+2025-02-15 11:57:43,818 - INFO - Actual Malicious Client IDs: [0, 1, 2]
+
+2025-02-15 11:57:45,396 - INFO - Backdoor Success Rate = 18.70%
+2025-02-15 11:58:26,391 - INFO - 
+Round 5:
+2025-02-15 11:58:26,392 - INFO - Loss = 0.8227, Accuracy = 72.04%
+2025-02-15 11:58:26,392 - INFO - 
+Detection Metrics for Round 5:
+2025-02-15 11:58:26,393 - INFO - True Positives: 0
+2025-02-15 11:58:26,393 - INFO - False Positives: 0
+2025-02-15 11:58:26,394 - INFO - False Negatives: 3
+2025-02-15 11:58:26,394 - INFO - True Negatives: 7
+2025-02-15 11:58:26,395 - INFO - Detection Rate: 0.00%
+2025-02-15 11:58:26,395 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:58:26,395 - INFO - Precision: 0.00%
+2025-02-15 11:58:26,395 - INFO - Total Malicious Clients: 3
+2025-02-15 11:58:26,396 - INFO - Total Detected Clients: 0
+2025-02-15 11:58:26,396 - INFO - Detected Client IDs: []
+2025-02-15 11:58:26,396 - INFO - Actual Malicious Client IDs: [0, 1, 2]
+
+2025-02-15 11:58:28,044 - INFO - Backdoor Success Rate = 22.63%
+2025-02-15 11:59:08,697 - INFO - 
+Round 6:
+2025-02-15 11:59:08,698 - INFO - Loss = 0.8182, Accuracy = 72.34%
+2025-02-15 11:59:08,698 - INFO - 
+Detection Metrics for Round 6:
+2025-02-15 11:59:08,699 - INFO - True Positives: 0
+2025-02-15 11:59:08,699 - INFO - False Positives: 0
+2025-02-15 11:59:08,700 - INFO - False Negatives: 3
+2025-02-15 11:59:08,700 - INFO - True Negatives: 7
+2025-02-15 11:59:08,700 - INFO - Detection Rate: 0.00%
+2025-02-15 11:59:08,700 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:59:08,701 - INFO - Precision: 0.00%
+2025-02-15 11:59:08,701 - INFO - Total Malicious Clients: 3
+2025-02-15 11:59:08,701 - INFO - Total Detected Clients: 0
+2025-02-15 11:59:08,701 - INFO - Detected Client IDs: []
+2025-02-15 11:59:08,702 - INFO - Actual Malicious Client IDs: [0, 1, 2]
+
+2025-02-15 11:59:10,296 - INFO - Backdoor Success Rate = 26.20%
+2025-02-15 11:59:48,276 - INFO - 
+Round 7:
+2025-02-15 11:59:48,277 - INFO - Loss = 0.8115, Accuracy = 72.62%
+2025-02-15 11:59:48,278 - INFO - 
+Detection Metrics for Round 7:
+2025-02-15 11:59:48,278 - INFO - True Positives: 0
+2025-02-15 11:59:48,278 - INFO - False Positives: 0
+2025-02-15 11:59:48,279 - INFO - False Negatives: 3
+2025-02-15 11:59:48,279 - INFO - True Negatives: 7
+2025-02-15 11:59:48,279 - INFO - Detection Rate: 0.00%
+2025-02-15 11:59:48,280 - INFO - False Positive Rate: 0.00%
+2025-02-15 11:59:48,280 - INFO - Precision: 0.00%
+2025-02-15 11:59:48,280 - INFO - Total Malicious Clients: 3
+2025-02-15 11:59:48,280 - INFO - Total Detected Clients: 0
+2025-02-15 11:59:48,280 - INFO - Detected Client IDs: []
+2025-02-15 11:59:48,281 - INFO - Actual Malicious Client IDs: [0, 1, 2]
+
+2025-02-15 11:59:49,888 - INFO - Backdoor Success Rate = 29.87%
+2025-02-15 12:00:56,217 - INFO - 
+Round 8:
+2025-02-15 12:00:56,218 - INFO - Loss = 0.8070, Accuracy = 73.23%
+2025-02-15 12:00:56,218 - INFO - 
+Detection Metrics for Round 8:
+2025-02-15 12:00:56,219 - INFO - True Positives: 0
+2025-02-15 12:00:56,219 - INFO - False Positives: 0
+2025-02-15 12:00:56,220 - INFO - False Negatives: 3
+2025-02-15 12:00:56,220 - INFO - True Negatives: 7
+2025-02-15 12:00:56,220 - INFO - Detection Rate: 0.00%
+2025-02-15 12:00:56,220 - INFO - False Positive Rate: 0.00%
+2025-02-15 12:00:56,221 - INFO - Precision: 0.00%
+2025-02-15 12:00:56,221 - INFO - Total Malicious Clients: 3
+2025-02-15 12:00:56,221 - INFO - Total Detected Clients: 0
+2025-02-15 12:00:56,221 - INFO - Detected Client IDs: []
+2025-02-15 12:00:56,222 - INFO - Actual Malicious Client IDs: [0, 1, 2]
+
+2025-02-15 12:00:57,747 - INFO - Backdoor Success Rate = 34.13%
+2025-02-15 12:02:03,033 - INFO - 
+Round 9:
+2025-02-15 12:02:03,034 - INFO - Loss = 0.8108, Accuracy = 72.98%
+2025-02-15 12:02:03,035 - INFO - 
+Detection Metrics for Round 9:
+2025-02-15 12:02:03,035 - INFO - True Positives: 0
+2025-02-15 12:02:03,035 - INFO - False Positives: 0
+2025-02-15 12:02:03,035 - INFO - False Negatives: 3
+2025-02-15 12:02:03,036 - INFO - True Negatives: 7
+2025-02-15 12:02:03,036 - INFO - Detection Rate: 0.00%
+2025-02-15 12:02:03,036 - INFO - False Positive Rate: 0.00%
+2025-02-15 12:02:03,037 - INFO - Precision: 0.00%
+2025-02-15 12:02:03,037 - INFO - Total Malicious Clients: 3
+2025-02-15 12:02:03,037 - INFO - Total Detected Clients: 0
+2025-02-15 12:02:03,037 - INFO - Detected Client IDs: []
+2025-02-15 12:02:03,038 - INFO - Actual Malicious Client IDs: [0, 1, 2]
+
+2025-02-15 12:02:04,556 - INFO - Backdoor Success Rate = 36.13%
+2025-02-15 12:02:04,559 - INFO - Completed experiment with 30.0% malicious clients (defense ON)
+2025-02-15 12:02:04,559 - INFO - Starting experiment with 40.0% malicious clients
+2025-02-15 12:02:05,309 - INFO - Number of malicious clients: 4
+2025-02-15 12:02:54,502 - INFO - 
+Round 0:
+2025-02-15 12:02:54,503 - INFO - Loss = 1.6018, Accuracy = 49.63%
+2025-02-15 12:02:54,504 - INFO - 
+Detection Metrics for Round 0:
+2025-02-15 12:02:54,504 - INFO - True Positives: 4
+2025-02-15 12:02:54,504 - INFO - False Positives: 0
+2025-02-15 12:02:54,505 - INFO - False Negatives: 0
+2025-02-15 12:02:54,505 - INFO - True Negatives: 6
+2025-02-15 12:02:54,505 - INFO - Detection Rate: 100.00%
+2025-02-15 12:02:54,505 - INFO - False Positive Rate: 0.00%
+2025-02-15 12:02:54,506 - INFO - Precision: 100.00%
+2025-02-15 12:02:54,506 - INFO - Total Malicious Clients: 4
+2025-02-15 12:02:54,506 - INFO - Total Detected Clients: 4
+2025-02-15 12:02:54,507 - INFO - Detected Client IDs: [0, 1, 2, 3]
+2025-02-15 12:02:54,507 - INFO - Actual Malicious Client IDs: [0, 1, 2, 3]
+
+2025-02-15 12:02:56,577 - INFO - Backdoor Success Rate = 5.30%
+2025-02-15 12:17:26,638 - ERROR - Error in experiment with 40.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:26,641 - INFO - Starting experiment with 50.0% malicious clients
+2025-02-15 12:17:28,424 - INFO - Number of malicious clients: 5
+2025-02-15 12:17:28,453 - ERROR - Error in experiment with 50.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:28,455 - INFO - 
+Starting experiments without defense...
+2025-02-15 12:17:28,456 - INFO - Starting experiment with 20.0% malicious clients
+2025-02-15 12:17:29,931 - INFO - Number of malicious clients: 2
+2025-02-15 12:17:29,946 - ERROR - Error in experiment with 20.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:29,949 - INFO - Starting experiment with 30.0% malicious clients
+2025-02-15 12:17:31,404 - INFO - Number of malicious clients: 3
+2025-02-15 12:17:31,422 - ERROR - Error in experiment with 30.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:31,424 - INFO - Starting experiment with 40.0% malicious clients
+2025-02-15 12:17:32,968 - INFO - Number of malicious clients: 4
+2025-02-15 12:17:32,986 - ERROR - Error in experiment with 40.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:32,989 - INFO - Starting experiment with 50.0% malicious clients
+2025-02-15 12:17:34,217 - INFO - Number of malicious clients: 5
+2025-02-15 12:17:34,228 - ERROR - Error in experiment with 50.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:47,351 - INFO - Starting experiments with Fool's Gold defense...
+2025-02-15 12:17:47,352 - INFO - Starting experiment with 20.0% malicious clients
+2025-02-15 12:17:49,247 - INFO - Number of malicious clients: 2
+2025-02-15 12:17:49,273 - ERROR - Error in experiment with 20.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:49,276 - INFO - Starting experiment with 30.0% malicious clients
+2025-02-15 12:17:51,706 - INFO - Number of malicious clients: 3
+2025-02-15 12:17:51,724 - ERROR - Error in experiment with 30.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:51,726 - INFO - Starting experiment with 40.0% malicious clients
+2025-02-15 12:17:53,259 - INFO - Number of malicious clients: 4
+2025-02-15 12:17:53,276 - ERROR - Error in experiment with 40.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:53,279 - INFO - Starting experiment with 50.0% malicious clients
+2025-02-15 12:17:54,764 - INFO - Number of malicious clients: 5
+2025-02-15 12:17:54,780 - ERROR - Error in experiment with 50.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:54,783 - INFO - 
+Starting experiments without defense...
+2025-02-15 12:17:54,784 - INFO - Starting experiment with 20.0% malicious clients
+2025-02-15 12:17:56,234 - INFO - Number of malicious clients: 2
+2025-02-15 12:17:56,251 - ERROR - Error in experiment with 20.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:56,253 - INFO - Starting experiment with 30.0% malicious clients
+2025-02-15 12:17:57,826 - INFO - Number of malicious clients: 3
+2025-02-15 12:17:57,837 - ERROR - Error in experiment with 30.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:57,839 - INFO - Starting experiment with 40.0% malicious clients
+2025-02-15 12:17:58,733 - INFO - Number of malicious clients: 4
+2025-02-15 12:17:58,741 - ERROR - Error in experiment with 40.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-02-15 12:17:58,743 - INFO - Starting experiment with 50.0% malicious clients
+2025-02-15 12:17:59,509 - INFO - Number of malicious clients: 5
+2025-02-15 12:17:59,518 - ERROR - Error in experiment with 50.0% malicious clients: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
