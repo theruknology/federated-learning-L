@@ -1,0 +1,27 @@
+2025-03-02 21:25:41,506 - INFO - 
+=== Testing NONE Defense ===
+2025-03-02 21:26:42,500 - INFO - NONE | Malicious: 2 | Success Rate: 12.60% | Detection Rate: 0.00%
+2025-03-02 21:27:29,902 - INFO - NONE | Malicious: 3 | Success Rate: 17.73% | Detection Rate: 0.00%
+2025-03-02 21:28:16,626 - INFO - NONE | Malicious: 4 | Success Rate: 20.35% | Detection Rate: 0.00%
+2025-03-02 21:28:59,440 - INFO - NONE | Malicious: 5 | Success Rate: 39.70% | Detection Rate: 0.00%
+2025-03-02 21:28:59,442 - INFO - 
+=== Testing FOOLS_GOLD Defense ===
+2025-03-02 21:29:42,338 - INFO - FOOLS_GOLD | Malicious: 2 | Success Rate: 8.40% | Detection Rate: 100.00%
+2025-03-02 21:30:19,967 - INFO - FOOLS_GOLD | Malicious: 3 | Success Rate: 7.90% | Detection Rate: 100.00%
+2025-03-02 21:31:05,619 - INFO - FOOLS_GOLD | Malicious: 4 | Success Rate: 7.40% | Detection Rate: 75.00%
+2025-03-02 21:31:46,000 - INFO - FOOLS_GOLD | Malicious: 5 | Success Rate: 8.68% | Detection Rate: 80.00%
+2025-03-02 21:31:46,010 - INFO - 
+=== Testing MUDHOG Defense ===
+2025-03-02 21:32:40,831 - INFO - MUDHOG | Malicious: 2 | Success Rate: 12.55% | Detection Rate: 0.00%
+2025-03-02 21:33:24,425 - INFO - MUDHOG | Malicious: 3 | Success Rate: 34.93% | Detection Rate: 33.33%
+2025-03-02 21:34:07,483 - INFO - MUDHOG | Malicious: 4 | Success Rate: 20.48% | Detection Rate: 25.00%
+2025-03-02 21:34:50,821 - INFO - MUDHOG | Malicious: 5 | Success Rate: 15.74% | Detection Rate: 60.00%
+2025-03-02 21:34:50,828 - INFO - 
+=== Testing CONTRA Defense ===
+2025-03-02 21:35:41,270 - INFO - CONTRA | Malicious: 2 | Success Rate: 11.95% | Detection Rate: 100.00%
+2025-03-02 21:36:21,605 - INFO - CONTRA | Malicious: 3 | Success Rate: 19.50% | Detection Rate: 100.00%
+2025-03-02 21:37:09,711 - INFO - CONTRA | Malicious: 4 | Success Rate: 11.47% | Detection Rate: 75.00%
+2025-03-02 21:37:57,851 - INFO - CONTRA | Malicious: 5 | Success Rate: 20.48% | Detection Rate: 60.00%
+2025-03-02 21:49:28,443 - INFO - 
+=== Testing NONE Defense ===
+2025-03-02 21:50:17,032 - INFO - NONE | Malicious: 2 | Success Rate: 10.10% | Detection Rate: 0.00%

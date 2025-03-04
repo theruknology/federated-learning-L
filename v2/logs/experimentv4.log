@@ -1,0 +1,52 @@
+2025-03-02 21:52:10,870 - INFO - 
+=== Testing NONE Defense ===
+2025-03-02 21:53:03,892 - INFO - NONE | Malicious: 0 | Success Rate: 0.00% | Detection Rate: 0.00%
+2025-03-02 21:53:55,135 - INFO - NONE | Malicious: 1 | Success Rate: 8.60% | Detection Rate: 0.00%
+2025-03-02 21:54:45,176 - INFO - NONE | Malicious: 2 | Success Rate: 8.40% | Detection Rate: 0.00%
+2025-03-02 21:55:37,095 - INFO - NONE | Malicious: 3 | Success Rate: 14.27% | Detection Rate: 0.00%
+2025-03-02 21:56:15,357 - INFO - NONE | Malicious: 4 | Success Rate: 18.10% | Detection Rate: 0.00%
+2025-03-02 21:57:03,406 - INFO - NONE | Malicious: 5 | Success Rate: 23.28% | Detection Rate: 0.00%
+2025-03-02 21:57:48,259 - INFO - NONE | Malicious: 6 | Success Rate: 27.40% | Detection Rate: 0.00%
+2025-03-02 21:58:40,740 - INFO - NONE | Malicious: 7 | Success Rate: 25.89% | Detection Rate: 0.00%
+2025-03-02 21:59:25,835 - INFO - NONE | Malicious: 8 | Success Rate: 31.93% | Detection Rate: 0.00%
+2025-03-02 22:00:10,325 - INFO - NONE | Malicious: 9 | Success Rate: 52.58% | Detection Rate: 0.00%
+2025-03-02 22:01:05,704 - INFO - NONE | Malicious: 10 | Success Rate: 76.02% | Detection Rate: 0.00%
+2025-03-02 22:01:05,706 - INFO - 
+=== Testing FOOLS_GOLD Defense ===
+2025-03-02 22:01:59,061 - INFO - FOOLS_GOLD | Malicious: 0 | Success Rate: 0.00% | Detection Rate: 0.00%
+2025-03-02 22:03:02,528 - INFO - FOOLS_GOLD | Malicious: 1 | Success Rate: 7.20% | Detection Rate: 100.00%
+2025-03-02 22:03:41,019 - INFO - FOOLS_GOLD | Malicious: 2 | Success Rate: 11.90% | Detection Rate: 100.00%
+2025-03-02 22:04:41,255 - INFO - FOOLS_GOLD | Malicious: 3 | Success Rate: 8.93% | Detection Rate: 100.00%
+2025-03-02 22:05:35,812 - INFO - FOOLS_GOLD | Malicious: 4 | Success Rate: 12.85% | Detection Rate: 100.00%
+2025-03-02 22:06:22,974 - INFO - FOOLS_GOLD | Malicious: 5 | Success Rate: 21.68% | Detection Rate: 100.00%
+2025-03-02 22:07:07,080 - INFO - FOOLS_GOLD | Malicious: 6 | Success Rate: 38.37% | Detection Rate: 100.00%
+2025-03-02 22:07:49,500 - INFO - FOOLS_GOLD | Malicious: 7 | Success Rate: 37.43% | Detection Rate: 100.00%
+2025-03-02 22:08:31,190 - INFO - FOOLS_GOLD | Malicious: 8 | Success Rate: 44.30% | Detection Rate: 100.00%
+2025-03-02 22:09:28,331 - INFO - FOOLS_GOLD | Malicious: 9 | Success Rate: 34.36% | Detection Rate: 100.00%
+2025-03-02 22:10:09,586 - INFO - FOOLS_GOLD | Malicious: 10 | Success Rate: 68.46% | Detection Rate: 100.00%
+2025-03-02 22:10:09,588 - INFO - 
+=== Testing MUDHOG Defense ===
+2025-03-02 22:10:58,237 - INFO - MUDHOG | Malicious: 0 | Success Rate: 0.00% | Detection Rate: 0.00%
+2025-03-02 22:11:42,807 - INFO - MUDHOG | Malicious: 1 | Success Rate: 6.40% | Detection Rate: 100.00%
+2025-03-02 22:12:31,249 - INFO - MUDHOG | Malicious: 2 | Success Rate: 14.10% | Detection Rate: 0.00%
+2025-03-02 22:13:19,831 - INFO - MUDHOG | Malicious: 3 | Success Rate: 11.73% | Detection Rate: 33.33%
+2025-03-02 22:14:02,528 - INFO - MUDHOG | Malicious: 4 | Success Rate: 10.10% | Detection Rate: 75.00%
+2025-03-02 22:14:45,258 - INFO - MUDHOG | Malicious: 5 | Success Rate: 12.48% | Detection Rate: 80.00%
+2025-03-02 22:15:33,118 - INFO - MUDHOG | Malicious: 6 | Success Rate: 37.93% | Detection Rate: 16.67%
+2025-03-02 22:16:18,457 - INFO - MUDHOG | Malicious: 7 | Success Rate: 29.94% | Detection Rate: 0.00%
+2025-03-02 22:17:12,992 - INFO - MUDHOG | Malicious: 8 | Success Rate: 66.90% | Detection Rate: 37.50%
+2025-03-02 22:18:03,764 - INFO - MUDHOG | Malicious: 9 | Success Rate: 66.53% | Detection Rate: 33.33%
+2025-03-02 22:18:47,795 - INFO - MUDHOG | Malicious: 10 | Success Rate: 65.08% | Detection Rate: 50.00%
+2025-03-02 22:18:47,796 - INFO - 
+=== Testing CONTRA Defense ===
+2025-03-02 22:19:41,247 - INFO - CONTRA | Malicious: 0 | Success Rate: 0.00% | Detection Rate: 0.00%
+2025-03-02 22:20:26,677 - INFO - CONTRA | Malicious: 1 | Success Rate: 8.80% | Detection Rate: 100.00%
+2025-03-02 22:21:24,010 - INFO - CONTRA | Malicious: 2 | Success Rate: 12.60% | Detection Rate: 100.00%
+2025-03-02 22:22:13,434 - INFO - CONTRA | Malicious: 3 | Success Rate: 12.87% | Detection Rate: 100.00%
+2025-03-02 22:23:00,409 - INFO - CONTRA | Malicious: 4 | Success Rate: 15.50% | Detection Rate: 100.00%
+2025-03-02 22:23:50,835 - INFO - CONTRA | Malicious: 5 | Success Rate: 11.80% | Detection Rate: 80.00%
+2025-03-02 22:24:45,944 - INFO - CONTRA | Malicious: 6 | Success Rate: 12.73% | Detection Rate: 100.00%
+2025-03-02 22:25:33,267 - INFO - CONTRA | Malicious: 7 | Success Rate: 24.60% | Detection Rate: 85.71%
+2025-03-02 22:26:17,084 - INFO - CONTRA | Malicious: 8 | Success Rate: 43.15% | Detection Rate: 87.50%
+2025-03-02 22:27:03,671 - INFO - CONTRA | Malicious: 9 | Success Rate: 35.31% | Detection Rate: 77.78%
+2025-03-02 22:27:41,403 - INFO - CONTRA | Malicious: 10 | Success Rate: 54.16% | Detection Rate: 80.00%

@@ -1,0 +1,9 @@
+2025-03-04 08:53:45,852 - INFO - 
+=== Testing NONE Defense ===
+2025-03-04 08:54:49,596 - INFO - NONE | Malicious: 0 | Success Rate: 0.00% | Detection Rate: 0.00%
+2025-03-04 08:55:46,478 - INFO - NONE | Malicious: 1 | Success Rate: 5.80% | Detection Rate: 0.00%
+2025-03-04 08:56:26,299 - INFO - NONE | Malicious: 2 | Success Rate: 10.10% | Detection Rate: 0.00%
+2025-03-04 08:57:31,773 - INFO - 
+=== Testing FOOLS_GOLD Defense ===
+2025-03-04 08:58:00,595 - INFO - 
+=== Testing MUDHOG Defense ===

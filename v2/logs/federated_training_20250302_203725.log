@@ -1,0 +1,171 @@
+2025-03-02 20:37:25,467 - INFO - Starting experiments with Fool's Gold defense...
+2025-03-02 20:37:25,468 - INFO - Starting experiment with 20.0% malicious clients
+2025-03-02 20:37:27,972 - INFO - Number of malicious clients: 2
+2025-03-02 20:38:23,964 - INFO - 
+Round 0:
+2025-03-02 20:38:23,965 - INFO - Loss = 1.6461, Accuracy = 49.70%
+2025-03-02 20:38:23,965 - INFO - 
+Detection Metrics for Round 0:
+2025-03-02 20:38:23,966 - INFO - True Positives: 0
+2025-03-02 20:38:23,966 - INFO - False Positives: 0
+2025-03-02 20:38:23,966 - INFO - False Negatives: 2
+2025-03-02 20:38:23,966 - INFO - True Negatives: 8
+2025-03-02 20:38:23,966 - INFO - Detection Rate: 0.00%
+2025-03-02 20:38:23,967 - INFO - False Positive Rate: 0.00%
+2025-03-02 20:38:23,967 - INFO - Precision: 0.00%
+2025-03-02 20:38:23,967 - INFO - Total Malicious Clients: 2
+2025-03-02 20:38:23,968 - INFO - Total Detected Clients: 0
+2025-03-02 20:38:23,968 - INFO - Detected Client IDs: []
+2025-03-02 20:38:23,968 - INFO - Actual Malicious Client IDs: [0, 1]
+
+2025-03-02 20:38:25,031 - INFO - Backdoor Success Rate = 9.80%
+2025-03-02 20:38:25,033 - INFO - Completed experiment with 20.0% malicious clients (defense ON)
+2025-03-02 20:38:25,034 - INFO - Starting experiment with 30.0% malicious clients
+2025-03-02 20:38:25,830 - INFO - Number of malicious clients: 3
+2025-03-02 20:39:20,266 - INFO - 
+Round 0:
+2025-03-02 20:39:20,267 - INFO - Loss = 1.5739, Accuracy = 52.71%
+2025-03-02 20:39:20,267 - INFO - 
+Detection Metrics for Round 0:
+2025-03-02 20:39:20,268 - INFO - True Positives: 3
+2025-03-02 20:39:20,268 - INFO - False Positives: 0
+2025-03-02 20:39:20,269 - INFO - False Negatives: 0
+2025-03-02 20:39:20,269 - INFO - True Negatives: 7
+2025-03-02 20:39:20,270 - INFO - Detection Rate: 100.00%
+2025-03-02 20:39:20,270 - INFO - False Positive Rate: 0.00%
+2025-03-02 20:39:20,270 - INFO - Precision: 100.00%
+2025-03-02 20:39:20,270 - INFO - Total Malicious Clients: 3
+2025-03-02 20:39:20,271 - INFO - Total Detected Clients: 3
+2025-03-02 20:39:20,271 - INFO - Detected Client IDs: [0, 1, 2]
+2025-03-02 20:39:20,271 - INFO - Actual Malicious Client IDs: [0, 1, 2]
+
+2025-03-02 20:39:21,864 - INFO - Backdoor Success Rate = 9.30%
+2025-03-02 20:39:21,866 - INFO - Completed experiment with 30.0% malicious clients (defense ON)
+2025-03-02 20:39:21,866 - INFO - Starting experiment with 40.0% malicious clients
+2025-03-02 20:39:22,685 - INFO - Number of malicious clients: 4
+2025-03-02 20:40:01,751 - INFO - 
+Round 0:
+2025-03-02 20:40:01,752 - INFO - Loss = 1.5608, Accuracy = 52.78%
+2025-03-02 20:40:01,753 - INFO - 
+Detection Metrics for Round 0:
+2025-03-02 20:40:01,753 - INFO - True Positives: 4
+2025-03-02 20:40:01,753 - INFO - False Positives: 0
+2025-03-02 20:40:01,754 - INFO - False Negatives: 0
+2025-03-02 20:40:01,754 - INFO - True Negatives: 6
+2025-03-02 20:40:01,754 - INFO - Detection Rate: 100.00%
+2025-03-02 20:40:01,754 - INFO - False Positive Rate: 0.00%
+2025-03-02 20:40:01,755 - INFO - Precision: 100.00%
+2025-03-02 20:40:01,755 - INFO - Total Malicious Clients: 4
+2025-03-02 20:40:01,755 - INFO - Total Detected Clients: 4
+2025-03-02 20:40:01,756 - INFO - Detected Client IDs: [0, 1, 2, 3]
+2025-03-02 20:40:01,756 - INFO - Actual Malicious Client IDs: [0, 1, 2, 3]
+
+2025-03-02 20:40:04,010 - INFO - Backdoor Success Rate = 7.75%
+2025-03-02 20:40:04,012 - INFO - Completed experiment with 40.0% malicious clients (defense ON)
+2025-03-02 20:40:04,013 - INFO - Starting experiment with 50.0% malicious clients
+2025-03-02 20:40:04,848 - INFO - Number of malicious clients: 5
+2025-03-02 20:40:48,280 - INFO - 
+Round 0:
+2025-03-02 20:40:48,281 - INFO - Loss = 1.5679, Accuracy = 52.24%
+2025-03-02 20:40:48,281 - INFO - 
+Detection Metrics for Round 0:
+2025-03-02 20:40:48,282 - INFO - True Positives: 5
+2025-03-02 20:40:48,282 - INFO - False Positives: 0
+2025-03-02 20:40:48,282 - INFO - False Negatives: 0
+2025-03-02 20:40:48,282 - INFO - True Negatives: 5
+2025-03-02 20:40:48,283 - INFO - Detection Rate: 100.00%
+2025-03-02 20:40:48,283 - INFO - False Positive Rate: 0.00%
+2025-03-02 20:40:48,283 - INFO - Precision: 100.00%
+2025-03-02 20:40:48,283 - INFO - Total Malicious Clients: 5
+2025-03-02 20:40:48,284 - INFO - Total Detected Clients: 5
+2025-03-02 20:40:48,284 - INFO - Detected Client IDs: [0, 1, 2, 3, 4]
+2025-03-02 20:40:48,284 - INFO - Actual Malicious Client IDs: [0, 1, 2, 3, 4]
+
+2025-03-02 20:40:50,909 - INFO - Backdoor Success Rate = 7.98%
+2025-03-02 20:40:50,915 - INFO - Completed experiment with 50.0% malicious clients (defense ON)
+2025-03-02 20:40:50,916 - INFO - 
+Starting experiments without defense...
+2025-03-02 20:40:50,916 - INFO - Starting experiment with 20.0% malicious clients
+2025-03-02 20:40:51,763 - INFO - Number of malicious clients: 2
+2025-03-02 20:41:35,197 - INFO - 
+Round 0:
+2025-03-02 20:41:35,198 - INFO - Loss = 1.6440, Accuracy = 51.56%
+2025-03-02 20:41:35,199 - INFO - 
+Detection Metrics for Round 0:
+2025-03-02 20:41:35,199 - INFO - True Positives: 2
+2025-03-02 20:41:35,199 - INFO - False Positives: 0
+2025-03-02 20:41:35,199 - INFO - False Negatives: 0
+2025-03-02 20:41:35,199 - INFO - True Negatives: 8
+2025-03-02 20:41:35,200 - INFO - Detection Rate: 100.00%
+2025-03-02 20:41:35,200 - INFO - False Positive Rate: 0.00%
+2025-03-02 20:41:35,200 - INFO - Precision: 100.00%
+2025-03-02 20:41:35,200 - INFO - Total Malicious Clients: 2
+2025-03-02 20:41:35,201 - INFO - Total Detected Clients: 2
+2025-03-02 20:41:35,201 - INFO - Detected Client IDs: [0, 1]
+2025-03-02 20:41:35,201 - INFO - Actual Malicious Client IDs: [0, 1]
+
+2025-03-02 20:41:36,277 - INFO - Backdoor Success Rate = 9.05%
+2025-03-02 20:41:36,283 - INFO - Completed experiment with 20.0% malicious clients (defense OFF)
+2025-03-02 20:41:36,283 - INFO - Starting experiment with 30.0% malicious clients
+2025-03-02 20:41:37,125 - INFO - Number of malicious clients: 3
+2025-03-02 20:42:27,392 - INFO - 
+Round 0:
+2025-03-02 20:42:27,393 - INFO - Loss = 1.5551, Accuracy = 52.29%
+2025-03-02 20:42:27,393 - INFO - 
+Detection Metrics for Round 0:
+2025-03-02 20:42:27,394 - INFO - True Positives: 2
+2025-03-02 20:42:27,394 - INFO - False Positives: 0
+2025-03-02 20:42:27,394 - INFO - False Negatives: 1
+2025-03-02 20:42:27,395 - INFO - True Negatives: 7
+2025-03-02 20:42:27,395 - INFO - Detection Rate: 66.67%
+2025-03-02 20:42:27,395 - INFO - False Positive Rate: 0.00%
+2025-03-02 20:42:27,396 - INFO - Precision: 100.00%
+2025-03-02 20:42:27,396 - INFO - Total Malicious Clients: 3
+2025-03-02 20:42:27,396 - INFO - Total Detected Clients: 2
+2025-03-02 20:42:27,397 - INFO - Detected Client IDs: [1, 2]
+2025-03-02 20:42:27,397 - INFO - Actual Malicious Client IDs: [0, 1, 2]
+
+2025-03-02 20:42:28,984 - INFO - Backdoor Success Rate = 12.47%
+2025-03-02 20:42:28,990 - INFO - Completed experiment with 30.0% malicious clients (defense OFF)
+2025-03-02 20:42:28,991 - INFO - Starting experiment with 40.0% malicious clients
+2025-03-02 20:42:29,832 - INFO - Number of malicious clients: 4
+2025-03-02 20:43:22,238 - INFO - 
+Round 0:
+2025-03-02 20:43:22,238 - INFO - Loss = 1.5532, Accuracy = 52.25%
+2025-03-02 20:43:22,239 - INFO - 
+Detection Metrics for Round 0:
+2025-03-02 20:43:22,239 - INFO - True Positives: 3
+2025-03-02 20:43:22,240 - INFO - False Positives: 0
+2025-03-02 20:43:22,240 - INFO - False Negatives: 1
+2025-03-02 20:43:22,240 - INFO - True Negatives: 6
+2025-03-02 20:43:22,240 - INFO - Detection Rate: 75.00%
+2025-03-02 20:43:22,241 - INFO - False Positive Rate: 0.00%
+2025-03-02 20:43:22,241 - INFO - Precision: 100.00%
+2025-03-02 20:43:22,241 - INFO - Total Malicious Clients: 4
+2025-03-02 20:43:22,241 - INFO - Total Detected Clients: 3
+2025-03-02 20:43:22,242 - INFO - Detected Client IDs: [0, 1, 2]
+2025-03-02 20:43:22,242 - INFO - Actual Malicious Client IDs: [0, 1, 2, 3]
+
+2025-03-02 20:43:24,438 - INFO - Backdoor Success Rate = 7.70%
+2025-03-02 20:43:24,440 - INFO - Completed experiment with 40.0% malicious clients (defense OFF)
+2025-03-02 20:43:24,440 - INFO - Starting experiment with 50.0% malicious clients
+2025-03-02 20:43:25,255 - INFO - Number of malicious clients: 5
+2025-03-02 20:44:05,543 - INFO - 
+Round 0:
+2025-03-02 20:44:05,544 - INFO - Loss = 1.5814, Accuracy = 51.40%
+2025-03-02 20:44:05,544 - INFO - 
+Detection Metrics for Round 0:
+2025-03-02 20:44:05,545 - INFO - True Positives: 3
+2025-03-02 20:44:05,545 - INFO - False Positives: 0
+2025-03-02 20:44:05,545 - INFO - False Negatives: 2
+2025-03-02 20:44:05,545 - INFO - True Negatives: 5
+2025-03-02 20:44:05,546 - INFO - Detection Rate: 60.00%
+2025-03-02 20:44:05,546 - INFO - False Positive Rate: 0.00%
+2025-03-02 20:44:05,546 - INFO - Precision: 100.00%
+2025-03-02 20:44:05,546 - INFO - Total Malicious Clients: 5
+2025-03-02 20:44:05,546 - INFO - Total Detected Clients: 3
+2025-03-02 20:44:05,547 - INFO - Detected Client IDs: [0, 1, 2]
+2025-03-02 20:44:05,547 - INFO - Actual Malicious Client IDs: [0, 1, 2, 3, 4]
+
+2025-03-02 20:44:08,210 - INFO - Backdoor Success Rate = 8.42%
+2025-03-02 20:44:08,215 - INFO - Completed experiment with 50.0% malicious clients (defense OFF)
