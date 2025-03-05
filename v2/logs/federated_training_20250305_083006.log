@@ -1,0 +1,105 @@
+2025-03-05 08:30:06,385 - INFO - Starting experiments without Fool's Gold defense...
+2025-03-05 08:30:06,386 - INFO - Starting experiment with 20.0% malicious clients
+2025-03-05 08:30:08,200 - INFO - Number of malicious clients: 2
+2025-03-05 08:30:08,201 - ERROR - Error in experiment with 20.0% malicious clients: name 'Client' is not defined
+2025-03-05 08:30:08,216 - INFO - Starting experiment with 30.0% malicious clients
+2025-03-05 08:30:10,315 - INFO - Number of malicious clients: 3
+2025-03-05 08:30:10,316 - ERROR - Error in experiment with 30.0% malicious clients: name 'Client' is not defined
+2025-03-05 08:30:10,319 - INFO - Starting experiment with 40.0% malicious clients
+2025-03-05 08:30:11,845 - INFO - Number of malicious clients: 4
+2025-03-05 08:30:11,846 - ERROR - Error in experiment with 40.0% malicious clients: name 'Client' is not defined
+2025-03-05 08:30:11,848 - INFO - Starting experiment with 50.0% malicious clients
+2025-03-05 08:30:12,856 - INFO - Number of malicious clients: 5
+2025-03-05 08:30:12,857 - ERROR - Error in experiment with 50.0% malicious clients: name 'Client' is not defined
+2025-03-05 08:30:12,858 - INFO - 
+Starting experiments with Fool's Gold defense...
+2025-03-05 08:30:12,858 - INFO - Starting experiment with 20.0% malicious clients
+2025-03-05 08:30:26,156 - INFO - Starting experiments without Fool's Gold defense...
+2025-03-05 08:30:26,157 - INFO - Starting experiment with 20.0% malicious clients
+2025-03-05 08:30:27,691 - INFO - Number of malicious clients: 2
+2025-03-05 08:31:21,433 - INFO - 
+Round 0:
+2025-03-05 08:31:21,434 - INFO - Loss = 24067.5658, Accuracy = 45.41%
+2025-03-05 08:31:22,637 - INFO - Backdoor Success Rate = 15.40%
+2025-03-05 08:31:22,639 - INFO - Completed experiment with 20.0% malicious clients (defense ON)
+2025-03-05 08:31:22,640 - INFO - Starting experiment with 30.0% malicious clients
+2025-03-05 08:31:23,456 - INFO - Number of malicious clients: 3
+2025-03-05 08:32:13,167 - INFO - 
+Round 0:
+2025-03-05 08:32:13,168 - INFO - Loss = 22772.0771, Accuracy = 44.26%
+2025-03-05 08:32:14,953 - INFO - Backdoor Success Rate = 21.10%
+2025-03-05 08:32:14,958 - INFO - Completed experiment with 30.0% malicious clients (defense ON)
+2025-03-05 08:32:14,959 - INFO - Starting experiment with 40.0% malicious clients
+2025-03-05 08:32:15,773 - INFO - Number of malicious clients: 4
+2025-03-05 08:33:01,151 - INFO - 
+Round 0:
+2025-03-05 08:33:01,152 - INFO - Loss = 18326.6613, Accuracy = 45.00%
+2025-03-05 08:33:03,359 - INFO - Backdoor Success Rate = 17.45%
+2025-03-05 08:33:03,364 - INFO - Completed experiment with 40.0% malicious clients (defense ON)
+2025-03-05 08:33:03,364 - INFO - Starting experiment with 50.0% malicious clients
+2025-03-05 08:33:04,188 - INFO - Number of malicious clients: 5
+2025-03-05 08:33:44,111 - INFO - 
+Round 0:
+2025-03-05 08:33:44,111 - INFO - Loss = 19216.3105, Accuracy = 43.71%
+2025-03-05 08:33:46,878 - INFO - Backdoor Success Rate = 17.08%
+2025-03-05 08:33:46,880 - INFO - Completed experiment with 50.0% malicious clients (defense ON)
+2025-03-05 08:33:46,880 - INFO - 
+Starting experiments with Fool's Gold defense...
+2025-03-05 08:33:46,880 - INFO - Starting experiment with 20.0% malicious clients
+2025-03-05 08:33:47,701 - INFO - Number of malicious clients: 2
+2025-03-05 08:37:11,967 - INFO - Starting experiments without Fool's Gold defense...
+2025-03-05 08:37:11,968 - INFO - Starting experiment with 30.0% malicious clients
+2025-03-05 08:37:13,545 - INFO - Number of malicious clients: 3
+2025-03-05 08:38:10,396 - INFO - 
+Round 0:
+2025-03-05 08:38:10,397 - INFO - Loss = 20898.0036, Accuracy = 45.53%
+2025-03-05 08:38:12,066 - INFO - Backdoor Success Rate = 13.80%
+2025-03-05 08:38:55,794 - INFO - 
+Round 1:
+2025-03-05 08:38:55,794 - INFO - Loss = nan, Accuracy = 10.00%
+2025-03-05 08:38:57,491 - INFO - Backdoor Success Rate = 0.00%
+2025-03-05 08:39:21,712 - INFO - Starting experiments without Fool's Gold defense...
+2025-03-05 08:39:21,713 - INFO - Starting experiment with 30.0% malicious clients
+2025-03-05 08:39:23,284 - INFO - Number of malicious clients: 3
+2025-03-05 08:40:15,231 - INFO - 
+Round 0:
+2025-03-05 08:40:15,232 - INFO - Loss = 18100.9469, Accuracy = 44.39%
+2025-03-05 08:40:16,888 - INFO - Backdoor Success Rate = 20.63%
+2025-03-05 08:40:53,178 - INFO - 
+Round 1:
+2025-03-05 08:40:53,178 - INFO - Loss = nan, Accuracy = 10.00%
+2025-03-05 08:40:54,788 - INFO - Backdoor Success Rate = 0.00%
+2025-03-05 08:41:35,793 - INFO - 
+Round 2:
+2025-03-05 08:41:35,794 - INFO - Loss = nan, Accuracy = 10.00%
+2025-03-05 08:41:37,489 - INFO - Backdoor Success Rate = 0.00%
+2025-03-05 08:42:20,346 - INFO - 
+Round 3:
+2025-03-05 08:42:20,346 - INFO - Loss = nan, Accuracy = 10.00%
+2025-03-05 08:42:22,009 - INFO - Backdoor Success Rate = 0.00%
+2025-03-05 08:42:58,990 - INFO - 
+Round 4:
+2025-03-05 08:42:58,991 - INFO - Loss = nan, Accuracy = 10.00%
+2025-03-05 08:43:00,669 - INFO - Backdoor Success Rate = 0.00%
+2025-03-05 08:43:52,531 - INFO - 
+Round 5:
+2025-03-05 08:43:52,532 - INFO - Loss = nan, Accuracy = 10.00%
+2025-03-05 08:43:54,155 - INFO - Backdoor Success Rate = 0.00%
+2025-03-05 08:44:40,333 - INFO - 
+Round 6:
+2025-03-05 08:44:40,334 - INFO - Loss = nan, Accuracy = 10.00%
+2025-03-05 08:44:42,080 - INFO - Backdoor Success Rate = 0.00%
+2025-03-05 08:49:49,147 - INFO - Starting experiments without Fool's Gold defense...
+2025-03-05 08:49:49,148 - INFO - Starting experiment with 30.0% malicious clients
+2025-03-05 08:49:50,607 - INFO - Number of malicious clients: 3
+2025-03-05 08:50:43,624 - INFO - 
+Round 0:
+2025-03-05 08:50:43,624 - INFO - Loss = 17997.9865, Accuracy = 45.60%
+2025-03-05 08:50:45,208 - INFO - Backdoor Success Rate = 22.20%
+2025-03-05 08:51:34,704 - INFO - 
+Round 1:
+2025-03-05 08:51:34,705 - INFO - Loss = nan, Accuracy = 10.00%
+2025-03-05 08:51:36,367 - INFO - Backdoor Success Rate = 0.00%
+2025-03-05 09:26:45,954 - INFO - 
+Running with 30.0% malicious clients (Defense OFF)
+2025-03-05 09:26:45,955 - INFO - Starting experiment with 30.0% malicious clients

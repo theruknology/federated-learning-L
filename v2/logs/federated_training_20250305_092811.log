@@ -1,0 +1,27 @@
+2025-03-05 09:28:11,061 - INFO - 
+Running with 30.0% malicious clients (Defense OFF)
+2025-03-05 09:28:11,062 - INFO - Starting experiment with 30.0% malicious clients
+2025-03-05 09:29:00,723 - INFO - 
+Running with 30.0% malicious clients (Defense OFF)
+2025-03-05 09:29:00,724 - INFO - Starting experiment with 30.0% malicious clients
+2025-03-05 09:31:16,209 - INFO - Round 0: Loss=2.0231, Accuracy=28.60%, Backdoor SR=29.33%
+2025-03-05 09:33:33,162 - INFO - Round 1: Loss=1.8859, Accuracy=32.51%, Backdoor SR=23.97%
+2025-03-05 09:35:49,563 - INFO - Round 2: Loss=1.7901, Accuracy=36.19%, Backdoor SR=22.83%
+2025-03-05 09:38:04,804 - INFO - Round 3: Loss=1.7168, Accuracy=38.54%, Backdoor SR=20.70%
+2025-03-05 09:40:25,996 - INFO - Round 4: Loss=1.6548, Accuracy=41.07%, Backdoor SR=19.40%
+2025-03-05 09:42:43,816 - INFO - Round 5: Loss=1.6024, Accuracy=42.35%, Backdoor SR=18.33%
+2025-03-05 09:45:04,203 - INFO - Round 6: Loss=1.5589, Accuracy=43.69%, Backdoor SR=18.17%
+2025-03-05 09:47:22,574 - INFO - Round 7: Loss=1.5266, Accuracy=44.91%, Backdoor SR=19.07%
+2025-03-05 09:49:40,566 - INFO - Round 8: Loss=1.4945, Accuracy=45.76%, Backdoor SR=17.93%
+2025-03-05 09:51:57,733 - INFO - Round 9: Loss=1.4688, Accuracy=46.77%, Backdoor SR=16.87%
+2025-03-05 09:51:57,735 - INFO - 
+Running with 30.0% malicious clients (Defense ON)
+2025-03-05 09:51:57,735 - INFO - Starting experiment with 30.0% malicious clients
+2025-03-05 09:54:15,382 - INFO - Round 0: Loss=2.0026, Accuracy=28.41%, Backdoor SR=38.90%
+2025-03-05 09:56:33,681 - INFO - Round 1: Loss=1.8642, Accuracy=33.29%, Backdoor SR=26.67%
+2025-03-05 09:58:50,314 - INFO - Round 2: Loss=1.7714, Accuracy=36.87%, Backdoor SR=21.80%
+2025-03-05 10:01:08,169 - INFO - Round 3: Loss=1.6945, Accuracy=38.92%, Backdoor SR=21.97%
+2025-03-05 10:03:23,604 - INFO - Round 4: Loss=1.6318, Accuracy=41.12%, Backdoor SR=20.30%
+2025-03-05 10:05:41,944 - INFO - Round 5: Loss=1.5814, Accuracy=43.12%, Backdoor SR=18.47%
+2025-03-05 10:07:59,699 - INFO - Round 6: Loss=1.5439, Accuracy=44.25%, Backdoor SR=19.20%
+2025-03-05 10:10:22,006 - INFO - Round 7: Loss=1.5126, Accuracy=45.27%, Backdoor SR=17.90%
